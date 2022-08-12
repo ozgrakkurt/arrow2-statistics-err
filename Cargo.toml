@@ -1,0 +1,11 @@
+[package]
+name = "statistic-err"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rayon = "1.5.3"
+
+[dependencies.arrow2]
+version = "0.13.1"
+features = [ "io_parquet", "io_parquet_compression", "compute" ]
